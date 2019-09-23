@@ -17,15 +17,21 @@ for s in turtle_shapes:
 startx = 0
 starty = 0
 
-#
+# calls the turtles to move
 for t in my_turtles:
+	t.penup()
 	t.goto(startx, starty)
+	t.pendown()
 	t.right(45)     
 	t.forward(50)
+	t.color
 
-#	
-	startx = startx + 50
-	starty = starty + 50
+
+	
+
+#	tells the turtles to move a certain amount
+	startx = t.xcor()
+	starty = t.ycor()
 
 wn = trtl.Screen()
 wn.mainloop()
